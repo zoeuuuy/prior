@@ -1,0 +1,252 @@
+
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  *, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+#fengmian {
+    display: block; text-align: center;margin-top: 335px;
+ }
+#fengmiantu {
+    display: inline; float:left; margin: 0 auto;
+    width: 100%; height: 100%; 
+}
+
+/*通用类标签 */
+
+.box1 {
+	width: 100%;
+	height: 768px;
+	background: url(../img/fengmian02.jpg) no-repeat center center;
+	background-attachment: fixed;
+    background-size: cover;
+	position: relative;
+	overflow: hidden;
+
+}
+/*
+.box1 {
+	width: 100%;
+	height: 768px;
+	background: url(../img/fengmian00.png) no-repeat center center;
+	background-attachment: fixed;
+    background-size: cover;
+	position: relative;
+	overflow: hidden;
+
+}*/
+
+.zhengshitimu {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+
+}
+/*.step {
+    position: relative;
+    top: 0%; left: 50%; width: 100%; height: auto; margin-left: -50%;
+    background-color:rgb(255,255,255,0.6); z-index: 9999; border-top:1px solid #fff;
+    border-bottom: 1px solid #fff;
+
+}*/
+
+#biaoti {
+    display: inline; z-index: 1; margin: 0 auto; height: auto; margin: 200px; 
+}
+.zhengwenbox {
+    margin: 0 auto; 
+    height: auto; padding: 80px; font-size: 16px;font-family:"Helvetica",Arial,sans-serif; ; 
+    
+}
+.textbox {
+    font-family: "STHeiti",Helvetica,Arial,sans-serif; font-size: 16px; line-height: 32px;  padding: 80px 80px 0 80px; text-indent: 2em; letter-spacing: 2px;
+}
+#answer {
+    font-family: "STHeiti",Helvetica,Arial,sans-serif; font-size: 16px; line-height: 32px;  padding: 15px; text-indent: 2em; letter-spacing: 2px;
+    border: 1px solid rgb(0, 0, 0); background-color: #fff; width: 1100px; height: auto; color:  rgb(49, 49, 49);
+}
+
+.zhengwen {
+    font-family: "STHeiti", Helvetica,Arial,sans-serif; font-size: 16px; line-height: 32px;  text-indent: 2em;
+    margin: 8px 40px 8px 40px; letter-spacing: 2px;
+}
+.zhengwen1 {
+    font-family: "STHeiti", Helvetica,Arial,sans-serif; font-size: 16px; line-height: 32px;  text-indent: 2em;
+    margin: 8px 40px 20px 40px; letter-spacing: 2px;
+}
+.zhengwen2 {
+    font-family: "STHeiti", Helvetica,Arial,sans-serif; font-size: 16px; line-height: 32px;  text-indent: 2em;
+    margin: 20px 40px 8px 40px; letter-spacing: 2px;
+}
+.highlight {font-family:"Helvetica",Arial,sans-serif; font-size: 16px; font-weight: 700;}
+.highlight0 {
+    font-family:"Helvetica",Arial,sans-serif; font-size: 16px; font-weight: 400; border-bottom:5px solid #f1bf2c; padding-bottom: 5px;
+}
+
+.biaoti1 { 
+    width: 16em; height: auto;margin: 0 auto;
+    border-bottom-width:auto; border-style:double; border-bottom-color: #0b3895; 
+    border-top: none; border-left: none; border-right: none; 
+    font-family: "STHeiti",Helvetica,Arial,sans-serif; font-size: 32px; text-align: center; letter-spacing: 4px;
+
+}
+.xiaobiaotibox {
+    margin: 40px;
+}
+.xiaobiaoti {
+    width: auto;  border-bottom: 5px solid #f1bf2c; color: #000000; background-color: white; border-top:1px solid #f1bf2c; border-left:1px solid #f1bf2c;border-right:1px solid #f1bf2c;
+    left: 50%; padding: 8px;  font-family: "Helvetica",Arial,sans-serif; font-size: 18px; font-weight: 700;
+}
+.chatu0 {
+    width: 500px; height: auto; margin: 0 auto; padding-top: 20px; padding-bottom: 20px;
+}
+.chatu500 {
+    width: 540px; height: auto; 
+}
+.chatu2 {
+    width: 600px; height:auto; margin: 0 auto; padding-top: 20px; padding-bottom: 20px;
+}
+.chatu600 {
+    width: 600px; height: auto;
+}
+.chatu3 {
+    width: 750px; height:auto; margin: 0 auto; padding-top: 20px; padding-bottom: 20px;
+}
+.chatu750 {
+    width: 750px; height: auto;
+}
+.chatu4 {
+    width: 800px; height: auto; margin: 0 auto; padding-top: 20px; padding-bottom: 20px;
+}
+.chatu800 {
+    width: 800px; height: auto;
+}
+.chatu5 {
+    width: 400px; height: auto; margin: 0 auto; padding-top: 20px; padding-bottom: 20px;
+}
+.chatu400 {
+    width: 400px; height: auto;
+}
+.chatu6 {
+    width: 540px; height: auto; margin: 0 auto; padding-top: 20px; padding-bottom: 20px;
+}
+.chatu540 {
+    width: 540px; height: auto;
+}
+.chatu7 {
+    width: 650px; height: auto; margin: 0 auto; padding-top: 20px; padding-bottom: 20px;
+}
+.chatu650 {
+    width: 650px; height: auto;
+}
+.timu {
+    font-family: "STHeiti",Helvetica,Arial,sans-serif; font-size: 32px; text-align: center; letter-spacing: 4px;
+    font-weight: 700; margin: 20px;  display: inline; position: relative; text-align: center;
+}
+.block {
+    display: block; height: 40px; width: 100%;
+}
+.block30 {
+    display: block; height: 30px; width: 100%;
+}
+/* 空白 */
+
+
+/* 前言 */
+#qianyan { font-family: "STHeiti",Helvetica,Arial,sans-serif; font-size: 16px; line-height: 36px;  padding: 80px;}
+#qianyan p {text-indent: 2em;}
+#qianyanp1 {margin-top: 10px;}
+.qianyanp {margin: 8px 40px 8px 40px; ; letter-spacing: 2px; }
+
+
+
+/*患上过敏性鼻炎是种什么体验*/
+#tiyanfengmian {
+    width: 100%
+	height： auto;
+	background-attachment: fixed;
+    background-size:cover;
+	position: relative;
+	overflow:hidden;
+    margin: 0 auto;
+}
+/*#ditu {
+    display: inline;top: 0%; position: relative;
+    z-index: 1; float: left;
+}*/
+
+#section1 {
+    display: inline; position: relative; 
+    margin:0 auto; width: 55%; height: auto; 
+    position: absolute;
+    padding-top: 200px;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(40%) translateY(-50%);
+}
+
+#tiyanqianyan {
+    padding: 10px; width: 1000px; height: auto;
+}
+
+
+.fengmian1 {
+    width: 1170px; height: auto; margin: o auto; 
+}
+.chatu1 {
+    width: 584px; height: 460px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#jieduan {
+    background-color: blanchedalmond;width: 400px;height: 400px; margin: 0 auto;
+}
+.ciyun {
+    font-family: "STHeiti",Helvetica,Arial,sans-serif; font-size: 12px; line-height: 20px; color: rgb(192, 192, 192); 
+    margin: 0 auto; width: 600px; height: 300px; background-color: #fff; margin: 8px 40px; 
+}
+.ciyunhighlight {
+    font-size: 13px; color: #5856D6; font-weight: 700; font-style: normal;
+}
+#ciyunbox {
+    margin: 15px;
+}
+
+/*结尾*/
+.jiewei {
+    text-align: center; color: rgb(0, 0, 0); font-family: 宋体,sans-serif; font-size: 15px; letter-spacing: 4px;
+    margin: 0 auto;  display: inline; position: relative;  width: 400px; height: auto; line-height: 28px;
+}
+.title {
+    font-family: "STHeiti",Helvetica,Arial,sans-serif; font-size: 28px; letter-spacing: 4px;
+    border-bottom: 5px solid #0b3895; color: rgb(0, 0, 0); margin: 0 auto; width: 129px; height: auto; line-height: 28px;
+}
+#jieweibox {
+    line-height: 28px;  padding: 80px 80px 80px 80px; background-color: #ffffff; border-top: 2px solid rgb(211, 208, 208); margin: 0 auto;
+
+}
+
+#svg {
+    width: 400px; height: 100%; padding: 20px; margin: 0 auto;background-color: black;
+}
+
+.circle {color: blueviolet; }
+.circle:hover {color: blue;}
